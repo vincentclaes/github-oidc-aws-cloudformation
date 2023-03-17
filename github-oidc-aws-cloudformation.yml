@@ -19,7 +19,7 @@ Parameters:
       Default is audience for the official AWS configure action from https://github.com/aws-actions/configure-aws-credentials
   SubjectClaimFilters:
     Type: CommaDelimitedList
-    Default: "repo:drift-ai/recommend-drawify:*"
+    Default: "repo:<orgName/repoName>:*"
     Description: >
       Subject claim filter for valid tokens.
       Default allows any branch or tag of the CMSgov/macpro-quickstart-serverless to assume the role.
